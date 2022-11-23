@@ -1,0 +1,16 @@
+5 Exception Scenarios:
+
+1) Throw an exception when a user tries to input something that doesn't match the data type you are trying to get (ask for int age; they input "Hi")
+	reason: there are other errors that would pop up if you attempt to store a String as an int, or any other mismatched variable type
+
+2) Throw an exception when trying to read in from a text file, but the text file is not found.
+	reason: The rest of the code would not work if you are expecting to be able to extract data from the txt file.
+
+3) Throw an exception when you are trying to build a deck in a card game, but the amount of cards you have either exceed the limit or are not at the minimum.
+	reason: invalid number of cards in your deck would result in breaking the rules of the game.
+
+4) Throw an exception when you attempt to log into an application, but the username is not in the database.
+	reason: If the username doesn't exist, then the user either typed it in wrong, or they don't have an account; either way, they are not able to log in.
+
+5) Throw an exception when you are trying to access an application that you no longer have the license to access anymore.
+	reason: If the company that gives the license to the application doesn't deny access without it, then (assuming you have to pay for it) the company would lose money.

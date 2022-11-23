@@ -1,0 +1,12 @@
+Real World Data Types:
+
+1. Drink size at a resturaunt - char
+2. Age - byte
+3. Width of picture frame - float
+4. Camera on/off status - boolean
+5. Full name - String
+6. Miles of travel - double
+7. Hours worked per year - int
+8. Money in bank - double
+9. Discount of item - short
+10. Population of World - long
